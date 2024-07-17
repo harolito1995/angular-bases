@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { CounterModule } from './counter/counter.module';
 
+import { CounterModule } from './counter/counter.module';
 import { AppRoutingModule } from './app-routing.module';
+import { HeroesModule } from './hereos/heroes.module';
+import { DbzModule } from './dbz/dbz.module';
 
 import { AppComponent } from './app.component';
-import { HeroesModule } from './hereos/heroes.module';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { HeroesModule } from './hereos/heroes.module';
     BrowserModule,
     AppRoutingModule,
     CounterModule,
-    HeroesModule
+    HeroesModule,
+    DbzModule
   ],
   providers: [],
   bootstrap: [AppComponent]

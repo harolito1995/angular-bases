@@ -14,7 +14,6 @@ export class CounterComponent {
     this.counter += value;
   }
 
-
   decreaseBy(value: number): void {
     this.counter -= value;
   }
